@@ -1,3 +1,6 @@
 # NeON build file (https://github.com/c4s4/neon)
 
 extends: rust
+
+properties:
+  ARGS: ['test']
