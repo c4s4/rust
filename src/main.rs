@@ -13,10 +13,10 @@ fn main() {
     // parse command line arguments
     let args = Cli::parse();
     // print argument
-    run(args.arg);
+    println!("Argument: {}", args.arg);
+    run();
 }
 
 /// Describe function here
-fn run(arg: String) {
-    println!("Argument: {}", arg);
+fn run() {
 }
