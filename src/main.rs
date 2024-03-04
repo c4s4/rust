@@ -5,6 +5,7 @@ use clap::Parser;
 #[command(version)]
 struct Cli {
     /// Describe argument here
+    #[clap(default_value = "test")]
     arg: String,
 }
 
