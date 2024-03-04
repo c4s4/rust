@@ -3,5 +3,8 @@
 extends: rust
 default: run
 
+# environment:
+#   RUST_BACKTRACE: '1'
+
 properties:
   ARGS: ['test']
