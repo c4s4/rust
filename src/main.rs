@@ -14,6 +14,7 @@ fn main() {
     let args = Cli::parse();
     // print argument
     println!("Argument: {}", args.arg);
+    // run function
     run();
 }
 
