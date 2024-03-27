@@ -1,3 +1,5 @@
+mod test;
+
 use clap::Parser;
 
 /// Describe project here

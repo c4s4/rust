@@ -1,7 +1,7 @@
 # NeON build file (https://github.com/c4s4/neon)
 
 extends: rust
-default: run
+default: [lint, test, run]
 
 # environment:
 #   RUST_BACKTRACE: '1'
