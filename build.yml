@@ -8,3 +8,5 @@ default: [lint, test, run]
 
 properties:
   ARGS: ['test']
+  TESTS: []
+  # to show output: ['--', '--show-output']
