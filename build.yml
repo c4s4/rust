@@ -10,3 +10,4 @@ properties:
   ARGS: ['test']
   TESTS: []
   # to show output: ['--', '--show-output']
+  # to run tests in one thread: ['--', '--test-threads=1']
