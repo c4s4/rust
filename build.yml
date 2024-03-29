@@ -11,3 +11,4 @@ properties:
   TESTS: []
   # to show output: ['--', '--show-output']
   # to run tests in one thread: ['--', '--test-threads=1']
+  # to run #[ignore]d tests: ['--', '--ignored']
