@@ -1,5 +1,3 @@
-mod test;
-
 use clap::Parser;
 
 /// Describe project here
@@ -21,5 +19,16 @@ fn main() {
 }
 
 /// Describe function here
-fn run() {
+fn run() {}
+
+//////////////////////////////////// TESTS /////////////////////////////////////
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test() {
+        assert_eq!(run(), ());
+    }
 }
