@@ -1,4 +1,5 @@
 use clap::Parser;
+use rust::library;
 
 /// Describe project here
 #[derive(Parser)]
@@ -19,16 +20,6 @@ fn main() {
 }
 
 /// Describe function here
-fn run() {}
-
-//////////////////////////////////// TESTS /////////////////////////////////////
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn test() {
-        assert_eq!(run(), ());
-    }
+fn run() {
+    println!("Answer: {}", library());
 }
